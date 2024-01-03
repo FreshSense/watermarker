@@ -78,7 +78,7 @@ func BulkWatermark(srcFolder, watermarkFile, outputFolder string, opacity float6
 	fmt.Println("Watermarking images...")
 	var watermarked []FileImage
 	for _, img := range images {
-		watermarked = append(watermarked, FileImage{Name: img.Name, Image: imaging.OverlayCenter(img.Image, watermark, opacity)})
+		watermarked = append(watermarked, FileImage{Name: img.Name, Image: imaging.Overlay(img.Image, watermark, image.Pt(0, 0), opacity)})
 	}
 
 	// Save the images
