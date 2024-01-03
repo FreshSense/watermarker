@@ -1,4 +1,4 @@
-module github.com/YoungMetroTrusted/watermarker
+module github.com/FreshSense/watermarker
 
 go 1.14
 
