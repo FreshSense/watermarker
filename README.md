@@ -55,5 +55,6 @@ watermarker bulk imageFolder/ example_watermark.png -o 0.8
 
 ### Watermark all images in a folder with custom opacity and custom output folder
 ```shell
+watermarker bulk C:\Users\Valb9\Downloads\concert\ watermark2.png -o 0.8 -n C:\Users\Valb9\Downloads\concert_output\
 watermarker bulk imageFolder/ example_watermark.png -o 0.8 -n examples/output/bulk/
 ```
