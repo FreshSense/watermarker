@@ -15,7 +15,7 @@ limitations under the License.
 */
 package main
 
-import "github.com/YoungMetroTrusted/watermarker/cmd"
+import "github.com/FreshSense/watermarker/cmd"
 
 func main() {
 	cmd.Execute()
